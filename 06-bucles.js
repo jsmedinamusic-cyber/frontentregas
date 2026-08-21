@@ -17,3 +17,14 @@ while (i2 <= limite) {
 }
 
 document.write(typeof(limite))
+
+//bucle do..while
+
+i=6
+
+do{
+
+document.write(`hola ${i} <br>`)
+i++
+}while (i<5);
+document.writeln("saliste del programa")
