@@ -54,16 +54,16 @@ console.log("Opción elegida:", opcion);
 
 switch (opcion) {
     case 1:
-    console.log("Ejecutando opción 1...");
+    console.log(" OPCION INCORRECTA");
     break;
     case 2:
-    console.log("Ejecutando opción 2...");
+    console.log("OPCION INCORECTA");
     break;
     case 3:
-    console.log("Saliendo del menú...");
+    console.log("OPCION VALIDA");
     break;
     default:
-console.log("Opción no válida.");
+console.log("Opción no válida");
 }
 
 indice++;
@@ -71,7 +71,7 @@ indice++;
 
 
 // 3. Pide un número mayor que 10
-let intentos = [3, 7, 10, 15]; 
+let intentos = [3, 7, 10, 15];
 let intentoIndex = 0;
 let numero;
 
