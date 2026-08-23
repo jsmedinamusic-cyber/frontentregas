@@ -2,11 +2,11 @@
 
 //while
 
-//let i =  1
-//while(i<=10){
-    //document.write(i + "<br>")
- //   i++
-//}
+let i =  1
+while(i<=10){
+    document.write(i + "<br>")
+i++
+}
 
 let limite = Number(prompt ("ingrese hasta que numero contar:"))
 let i2 = 1;
