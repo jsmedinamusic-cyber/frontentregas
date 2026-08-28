@@ -1,7 +1,7 @@
 // ===== WHILE =====
 
 // 1. Muestra los números del 10 al 1 usando while
-console.log
+
 let i = 10;
 while (i >= 1) {
 console.log(i);
@@ -9,7 +9,7 @@ i--;
 }
 
 // 2. Muestra solo los números pares del 2 al 20 usando while
-console.log;
+
 let num = 2;
 while (num <= 20) {
 console.log(num);
@@ -17,7 +17,7 @@ num += 2;
 }
 
 // 3. Suma los números del 1 al 100 usando while
-console.log
+
 let suma = 0;
 let contador = 1;
 while (contador <= 100) {
@@ -30,7 +30,7 @@ console.log("La suma total es:", suma);
 // ===== DO WHILE =====
 
 // 1. Muestra los números del 1 al 100 con do...while
-console.log
+
 let n = 1;
 do {
 console.log(n);
