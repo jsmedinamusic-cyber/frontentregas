@@ -40,7 +40,7 @@ suma(5)
 suma()
 
 
-// funciones anonimas
+// funciones Anonima
 
 const miFunc2 =function (name) {
     console.log('hola${name}!')
@@ -60,3 +60,22 @@ miFunc3()
 miFunc4()
 
 
+// con y sin retorno
+
+function cuadrado(num) {
+    console.log("el cuadrado de ${num} es ${num * num}");
+}
+
+cuadrado(4);
+
+let resultado = cuadrado(4)
+console.log(resultado)
+
+
+function cuadrado(num){
+return num * num;
+}
+
+let r = cuadrado(4)
+
+console.log(r);
